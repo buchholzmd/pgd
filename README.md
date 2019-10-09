@@ -6,6 +6,7 @@ The gradient descent algorithm with backtracking line search has the following e
 
 ![](https://latex.codecogs.com/gif.latex?f%28x%20&plus;%20dt%20%5CDelta%20x%29%20-%20f%28x%29%20%5Cleq%20%5Calpha%20dt%20%5Cnablaf%28x%29%5ET%20%5CDelta%20x)
 
+----
 Using the change of variables:
 
 ![](https://latex.codecogs.com/gif.latex?%5Cbar%7Bx%7D%20%3D%20P%5E%7B%5Cfrac%7B1%7D%7B2%7D%7Dx)
@@ -22,4 +23,4 @@ This gradient search direction corresponds to the direction (in the original coo
 
 ![](https://latex.codecogs.com/gif.latex?%5CDelta%20x%20%3D%20P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%28%20-P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%5Cnabla%20f%28x%29%29%20%3D%20-P%5E%7B-1%7D%20%5Cnabla%20f%28x%29)
 
-Giving us our update rule for preconditioned gradient descent. :)
+Giving us our update rule for preconditioned gradient descent :)
