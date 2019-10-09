@@ -20,6 +20,6 @@ One can see that the gradient search direction for minimizing our new function (
 
 This gradient search direction corresponds to the direction (in the original coordinates/function):
 
-https://latex.codecogs.com/gif.latex?%5CDelta%20x%20%3D%20P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%28%20-P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%5Cnabla%20f%28x%29%29%20%3D%20-P%5E%7B-1%7D%20%5Cnabla%20f%28x%29
+![](https://latex.codecogs.com/gif.latex?%5CDelta%20x%20%3D%20P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%28%20-P%5E%7B-%5Cfrac%7B1%7D%7B2%7D%7D%20%5Cnabla%20f%28x%29%29%20%3D%20-P%5E%7B-1%7D%20%5Cnabla%20f%28x%29)
 
 Giving us our update rule for preconditioned gradient descent. :)
